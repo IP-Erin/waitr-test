@@ -82,10 +82,3 @@ npx prettier --write . # Check and update code style of all files
 ```
 
 ### [Lefthook](https://github.com/evilmartians/lefthook) (Git Hook Manager) - usage tbd
-
-Git hooks will run on their own, below is special case manual usage:
-
-```sh
-npx lefthook run pre-commit # Manually trigger the pre-commit hook group
-LEFTHOOK=0 git commit -m "Commit message" # LEFTHOOK=0 skips git hooks
-```
